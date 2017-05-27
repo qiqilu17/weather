@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
                         @Override
                         public void run() {
-                           result.setText("a");
+                           result.setText(data);
                         }
                     });
 
