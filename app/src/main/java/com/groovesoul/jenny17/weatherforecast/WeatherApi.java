@@ -13,7 +13,7 @@ import java.net.URL;
 public class WeatherApi {
 
     private static final String API_ENDPOINT
-            = "http://weather.livedoor.com/forecast/webservice/json/vl?city=";
+            = "http://weather.livedoor.com/forecast/webservice/json/v1?city=";
     public static String getWeather(String cityId) throws IOException {
 
             URL uri = new URL(API_ENDPOINT + cityId);
